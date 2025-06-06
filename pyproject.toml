@@ -1,0 +1,15 @@
+[project]
+name = "mdt2pdf"
+version = "0.1.0"
+description = "Markdown table to PDF converter web application"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi>=0.104.1",
+    "uvicorn[standard]>=0.24.0",
+    "reportlab>=4.0.7",
+    "markdown>=3.5.1",
+    "beautifulsoup4>=4.12.2",
+    "jinja2>=3.1.2",
+    "python-multipart>=0.0.6",
+]
