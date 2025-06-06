@@ -45,7 +45,7 @@ jobs:
                   push: false
                   tags: ${{ steps.meta.outputs.tags }}
                   labels: ${{ steps.meta.outputs.labels }}
-                  outputs: type=docker,dest=/tmp/mdt2pdf-image.tar
+                  outputs: type=oci,dest=/tmp/mdt2pdf-image.tar
                   cache-from: type=gha
                   cache-to: type=gha,mode=max
 
